@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  ps_nautilus:
+    container_name: "ps_nautilus"
+    image: 341c64bf9b90
+    privileged: true
+    volumes:
+      - ./dir1:/dir1
+      - ./dir2:/dir1/dir2
+      - ./dir3:/dir1/dir3
+    network_mode: host
+    stdin_open: true
+    tty: true
