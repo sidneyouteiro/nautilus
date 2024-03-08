@@ -1,7 +1,7 @@
 FROM osrf/ros:humble-desktop-full
 
 RUN apt-get update -y \ 
-  && apt-get install vim -y \ 
+  && apt-get install vim tmux -y \ 
   && rm -rf /var/lib/apt/lists/*
 
 ARG USERNAME=ros

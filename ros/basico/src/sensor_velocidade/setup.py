@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'publisher = sensor_velocidade.publisher:main'
+            'publisher = sensor_velocidade.publisher:main',
+            'subscriber = sensor_velocidade.subscriber:main'
         ],
     },
 )
