@@ -1,0 +1,15 @@
+terra:
+  ros__parameters:
+    rd: 0.1
+    od: 2
+    p: 4
+lua:
+  ros__parameters:
+    rd: 0.1
+    od: 0.3
+    p: 25
+sol:
+  ros__parameters:
+    rd: 1
+    od: 0
+    p: 0
